@@ -13,7 +13,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* 🖼 PROFILE IMAGE (ไม่โดนตัด) */}
         <motion.div
-          className="relative w-72 h-72 md:w-100 md:h-96 flex items-center justify-center bg-gray-900 rounded-2xl shadow-2xl"
+          className="relative w-70 h-72 md:w-100 md:h-96 flex items-center justify-center bg-gray-900 rounded-2xl shadow-2xl"
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
         >
