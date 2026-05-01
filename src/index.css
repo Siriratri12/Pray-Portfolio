@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* กัน navbar บัง section */
+section {
+  scroll-margin-top: 80px;
+}
