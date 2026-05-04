@@ -8,7 +8,7 @@ export default function Projects() {
   const [fullscreenImg, setFullscreenImg] = useState(null);
 
   // ✅ filter state
-  const [filter, setFilter] = useState("All");
+  const [filter, setFilter] = useState("⭐ All");
 
   // ESC + lock scroll
   useEffect(() => {
@@ -33,7 +33,7 @@ export default function Projects() {
 
   // ✅ filter logic
   const filteredProjects =
-    filter === "All" ? projects : projects.filter((p) => p.type === filter);
+    filter === "⭐ All" ? projects : projects.filter((p) => p.type === filter);
 
   return (
     <section id="projects" className="py-20 px-6 bg-black text-white">
