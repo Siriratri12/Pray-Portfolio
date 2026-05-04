@@ -134,7 +134,7 @@ export const projects = [
     tech: "React, Firebase, TMDB API",
     description:
       "This is a web application for searching and exploring movies, providing a native and user-friendly experience for searching, filtering by genre and rating, and viewing movie overviews (previews) within the system. Movies can be saved to a watchlist. The application is powered by Firebase Firestore. This project features UI/UX research, a responsive design for searching and exploring across all devices, and is particularly responsive to Netflix. It utilizes React (Vite), Tailwind CSS, and Framer Motion Animation, and primarily uses the Netflix Entertainment API (TMDB) for data viewing.",
-    type: "web",
+    type: "Web",
     images: [movie1, movie2],
     github: "https://github.com/Siriratri12/MOVIEMOOD.git",
     live: "https://moviemood-sigma.vercel.app/",
@@ -146,7 +146,7 @@ export const projects = [
     tech: "React",
     description:
       "Develop a web application for managing a character database (Collection Management) using React.js to create a fast and responsive user experience (Single Page Application). The system supports comprehensive functionality, from identity verification and data filtering to managing product/character data.",
-    type: "web",
+    type: "Web",
     images: [pony1, pony2, pony3],
     github: "https://github.com/Siriratri12/Product-Animals-App.git",
   },
@@ -157,7 +157,7 @@ export const projects = [
     tech: "Vue.js, Pinia",
     description:
       "This project develops a back-office system designed to support the complex operations of online retail businesses. It transforms the traditional data storage system into an interactive dashboard that processes data in real-time. This system not only manages products and orders but also serves as a decision support tool through statistical data and business trend analysis.",
-    type: "system",
+    type: "Web",
     images: [
       product1,
       product2,
@@ -182,7 +182,7 @@ export const projects = [
     tech: "Next.js, Leaflet, ECharts",
     description:
       "Develop a web application to display alumni data of Prince of Songkla University in an interactive dashboard, focusing on spatial analytics and organizational breakdown. This will enable administrators and relevant departments to gain a deep and rapid understanding of alumni distribution and various statistics.",
-    type: "dashboard",
+    type: "Web",
     images: [alumni1, alumni2, alumni3, alumni4, alumni5, alumni6, alumni7],
     github: "https://github.com/Siriratri12/Dashboard-Alumni.git",
   },
@@ -192,7 +192,7 @@ export const projects = [
     tech: "Full-stack",
     description:
       "Developing a fully functional e-commerce website (Live Deployment) to serve as the primary digital channel for selling souvenirs from Khao Chai Son Hot Springs, focusing on high performance, data security, and a seamless shopping experience.",
-    type: "web",
+    type: "Web",
     images: [souvenir1, souvenir2],
     live: "https://souvenir-from-lagoon-thailand.com/",
   },
@@ -203,7 +203,7 @@ export const projects = [
     tech: "C Programming",
     description:
       "Develop a cafe management system using a Command Line Interface (CLI). Simulate the operation of a Point of Sale (POS) system, from taking orders → calculating prices → issuing receipts → giving change. Focusing on designing the algorithm and logical flow of the system.",
-    type: "system",
+    type: "System",
     images: [cafe1],
     github: "https://github.com/Siriratri12/cafe-app.git",
   },
@@ -214,7 +214,7 @@ export const projects = [
     tech: "C# OOP",
     description:
       "Develop a Point of Sale (POS) system for a coffee shop using C#. Design the system using Object-Oriented Programming (OOP) principles. Supports custom order processing and post-sales engagement.",
-    type: "system",
+    type: "System",
     images: [cafe2],
     github: "https://github.com/Siriratri12/csharp-project.git",
   },
@@ -226,7 +226,7 @@ export const projects = [
     tech: "Canva",
     description:
       "Designing a digital marketplace system for souvenirs and community products around the Khao Chai Son hot springs, focusing on connecting local communities with tourists through a modern, user-friendly experience that reflects the unique identity of Southern Thailand.",
-    type: "design",
+    type: "Design",
     images: [ui1],
     link: "https://canva.link/gl6dkx2pw883sln",
   },
@@ -236,7 +236,7 @@ export const projects = [
     tech: "Figma",
     description:
       "Design a dashboard to manage over 320,000 alumni records of Prince of Songkla University. Transform Big Data into easy-to-understand insights for executives. Support strategic decision-making and alumni engagement.",
-    type: "design",
+    type: "Design",
     images: [ui2, ui3],
     link: "https://www.figma.com/proto/TbIWt8Iy3I0CDLKl7JUJSi/new-and-new",
   },
@@ -247,7 +247,7 @@ export const projects = [
     tech: "Adobe Illustrato,Canva",
     description:
       "Creating designs using Adobe Illustrator, encompassing both character illustration and commercial graphic design (print & advertisement), with a focus on communicating ideas and establishing a clear unique identity for the work through artistic elements, color, and typography.",
-    type: "design",
+    type: "Design",
     images: [
       graphic1,
       graphic2,
@@ -269,7 +269,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop a Business Intelligence Dashboard with Power BI for Human Resource Management. Analyze in-depth data to reduce turnover rates and manage project risks. Evaluate the return on investment (Training ROI).",
-    type: "data",
+    type: "Dashboard",
     images: [hr1, hr2, hr3, hr4, hr5, hr6],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiYjc0NmY4YjQtMGM3Ni00OWY5LTkwNzItNmYyMWVjNWQ4MTE3IiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D",
@@ -281,7 +281,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop an interactive BI dashboard for end-to-end retail business analysis. Covering sales, profit, customer satisfaction, and logistics. Supporting data-driven decision-making for executives.",
-    type: "data",
+    type: "Dashboard",
     images: [ss8, ss9, ss10, ss11, ss12, ss13, ss14, ss15],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiZTI2OWU4MmUtZDU1Zi00NzNiLWJiNWMtNmVlMjViNGNjMDM4IiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=776851c33084327355a2",
@@ -293,7 +293,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop an HR Analytics Dashboard for end-to-end employee lifecycle analysis. Covering recruitment, workforce retention, and attrition analysis. Focusing on identifying bad hires to reduce hiring costs.",
-    type: "data",
+    type: "Dashboard",
     images: [sh17, sh18, sh19, sh20, sh21],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiZjk2NjhlY2UtNTcwNi00NGY3LWFhYjgtZmVkZTU2NTA4OTAwIiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=ReportSection2",
@@ -305,7 +305,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop a Financial Dashboard for SaaS (Subscription Model) businesses. Analyze revenue, costs, and profitability. Evaluate investment return using financial metrics (NPV, IRR, ROI).",
-    type: "data",
+    type: "Dashboard",
     images: [sa23, sa24, sa25, sa26],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiYTVhZWEyYWItNzMzYy00ZGQ3LTk2ZjgtNjMyYTA2N2U0MTM0IiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=0bfe4b579b32d58d13a3",
@@ -317,7 +317,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop a dashboard to analyze consumer behavior and find customer insights. Identify revenue drivers, channel preferences, and customer segments. Support personalized and data-driven marketing strategies.",
-    type: "data",
+    type: "Dashboard",
     images: [cb28],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiM2RhZGJlNjgtOWZjMy00ODgwLWJkOTgtZmU5MzJjNTZkZThmIiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=91a63675791e42d34934",
@@ -329,7 +329,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop a Financial Dashboard for Tech Startups to analyze Growth and Capital Efficiency. Designed to support business strategy planning and fundraising presentations. Covers Unit Economics, Burn Rate, and Market Opportunity.",
-    type: "data",
+    type: "Dashboard",
     images: [sf30, sf31, sf32],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiNzNhNDIzOWQtNGViNS00MGQ5LTgyOTUtODg5YTI3ZTAxMWI4IiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=5f3d32131cdc3b4f10f1",
@@ -341,7 +341,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop a dashboard for analyzing market feasibility and the competitive landscape. Analyze market share, competitor behavior, and market gaps. Support strategic decision-making for business expansion.",
-    type: "data",
+    type: "Dashboard",
     images: [mi34, mi35, mi36, mi37, mi38],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiMTViNWEwMTEtMDcyMy00Mzk4LWFlMWYtMjQzNWQ4YmFmMTU5IiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=1d71ec85be8a5718e9a9",
@@ -353,7 +353,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop a Decision Support System for negotiating with suppliers using the BATNA concept. Compare prices, quality, and delivery capabilities of suppliers. Support decision-making to reduce costs and increase bargaining power.",
-    type: "data",
+    type: "Dashboard",
     images: [sn40],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiMDM4MzE1NzgtOWQxOC00ZjljLWI3OTYtMGY3NzRiZDc0ZGE5IiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D",
@@ -365,7 +365,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop an Analytics Dashboard to track the success of Digital Transformation projects. Analyze Adoption Rate, Resistance, and Employee Satisfaction. Connect People Metrics with Business ROI.",
-    type: "data",
+    type: "Dashboard",
     images: [cm42, cm43],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiNGNiZGEyMDEtMzRiNi00OWY5LTk4OGEtZTA4OTk2NDBmMDRjIiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=9dfc8d1934d10a0ab516",
@@ -377,7 +377,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop an interactive dashboard for analyzing real estate prices. Use spatial and correlation analysis to identify factors affecting prices. Support data-driven buying/investment decisions.",
-    type: "data",
+    type: "Dashboard",
     images: [re45],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiMTQ3ZTIzMzItOGZjNC00M2ZmLTkxODQtNzhmNWJlZGY4YWViIiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=714fd580c1abc224a50d",
@@ -389,7 +389,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop an Analytics Dashboard to track Agile Transformation and Organizational Change. Use Gamification (8-bit/Pixel Art) concepts to increase user engagement. Link Employee Metrics → Team Performance → Business Impact.",
-    type: "data",
+    type: "Dashboard",
     images: [gm47, gm48, gm49, gm50],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiZWJhMmJjOTgtZDM1ZS00ZGIwLThhMjEtOTMwN2QwYzFlNGQ1IiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=6beaa3292c135a7bc8ac",
@@ -401,7 +401,7 @@ export const projects = [
     tech: "Power BI",
     description:
       "Develop a Decision Support System for negotiating customer discounts. Use accommodative negotiation strategies to maintain long-term relationships. Analyze the impact on profit and Customer Lifetime Value (CLV) in real-time.",
-    type: "data",
+    type: "Dashboard",
     images: [ac52, ac53, ac54, ac55],
     powerBI:
       "https://app.powerbi.com/view?r=eyJrIjoiMTk5MWQ0MTQtN2QwMS00MGVhLThlYjEtYTEyNzcxOWVlYTQ3IiwidCI6IjhlNjM0ZTY3LTlkNjYtNDZkMi1hNTI5LWUxYjcwOGM1ZDhiYyIsImMiOjEwfQ%3D%3D&pageName=60238effe11324fffdc5",

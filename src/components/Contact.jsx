@@ -83,11 +83,13 @@ export default function Contact() {
           <span className="text-purple-400 font-semibold">
             Software Development
           </span>{" "}
-          and{" "}
+          ,{" "}
           <span className="text-pink-400 font-semibold">
-            Data Visualization
-          </span>
-          . Ready to contribute, learn, and grow in a professional environment.
+            Data Analytics
+          </span>{" "}
+          and{" "}
+          <span className="text-purple-400 font-semibold">UX/UI Designer</span>.
+          Ready to contribute, learn, and grow in a professional environment.
         </p>
 
         {/* CTA Button */}

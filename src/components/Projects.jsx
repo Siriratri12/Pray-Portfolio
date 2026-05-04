@@ -7,7 +7,10 @@ export default function Projects() {
   const [imgIndex, setImgIndex] = useState(0);
   const [fullscreenImg, setFullscreenImg] = useState(null);
 
-  // ESC close + lock scroll
+  // ✅ filter state
+  const [filter, setFilter] = useState("All");
+
+  // ESC + lock scroll
   useEffect(() => {
     const close = (e) => {
       if (e.key === "Escape") {
@@ -28,44 +31,77 @@ export default function Projects() {
     setImgIndex(0);
   };
 
+  // ✅ filter logic
+  const filteredProjects =
+    filter === "All" ? projects : projects.filter((p) => p.type === filter);
+
   return (
     <section id="projects" className="py-20 px-6 bg-black text-white">
       {/* TITLE */}
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-14 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
         Projects
       </h2>
 
-      {/* GRID */}
-      <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        {projects.map((p, i) => (
-          <motion.div
-            key={i}
-            whileHover={{ scale: 1.05 }}
-            className="group relative cursor-pointer rounded-xl overflow-hidden border border-gray-800 hover:border-purple-500 transition"
-            onClick={() => openModal(p)}
-          >
-            <img
-              src={p.images?.[0]}
-              className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
-              alt={p.title}
-            />
-
-            {/* overlay */}
-            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col justify-end p-4">
-              <span className="text-xs bg-purple-500/20 text-purple-400 px-2 py-1 rounded w-fit mb-2">
-                {p.type}
-              </span>
-
-              <h3 className="font-semibold">{p.title}</h3>
-              <p className="text-xs text-gray-300">{p.tech}</p>
-
-              <button className="mt-3 text-sm bg-gradient-to-r from-purple-500 to-pink-500 px-3 py-1 rounded w-fit">
-                View Project
-              </button>
-            </div>
-          </motion.div>
-        ))}
+      {/* ================= FILTER ================= */}
+      <div className="flex justify-center gap-3 mb-10 flex-wrap">
+        {["⭐ All", "🌐 Web", "💻 System", "📊 Dashboard", "🎨 Design"].map(
+          (item) => (
+            <button
+              key={item}
+              onClick={() => setFilter(item)}
+              className={`px-4 py-2 text-sm rounded-full border transition
+              ${
+                filter === item
+                  ? "bg-gradient-to-r from-purple-500 to-pink-500 text-black border-transparent"
+                  : "border-gray-700 text-gray-400 hover:border-purple-400 hover:text-white"
+              }`}
+            >
+              {item}
+            </button>
+          ),
+        )}
       </div>
+
+      {/* ================= GRID ================= */}
+      <motion.div
+        layout
+        className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto"
+      >
+        <AnimatePresence>
+          {filteredProjects.map((p, i) => (
+            <motion.div
+              key={p.title}
+              layout
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.8 }}
+              whileHover={{ scale: 1.05 }}
+              className="group relative cursor-pointer rounded-xl overflow-hidden border border-gray-800 hover:border-purple-500 transition"
+              onClick={() => openModal(p)}
+            >
+              <img
+                src={p.images?.[0]}
+                className="w-full h-48 object-cover group-hover:scale-110 transition duration-500"
+                alt={p.title}
+              />
+
+              {/* overlay */}
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col justify-end p-4">
+                <span className="text-xs bg-purple-500/20 text-purple-400 px-2 py-1 rounded w-fit mb-2">
+                  {p.type}
+                </span>
+
+                <h3 className="font-semibold">{p.title}</h3>
+                <p className="text-xs text-gray-300">{p.tech}</p>
+
+                <button className="mt-3 text-sm bg-gradient-to-r from-purple-500 to-pink-500 px-3 py-1 rounded w-fit">
+                  View Project
+                </button>
+              </div>
+            </motion.div>
+          ))}
+        </AnimatePresence>
+      </motion.div>
 
       {/* ================= MODAL ================= */}
       <AnimatePresence>

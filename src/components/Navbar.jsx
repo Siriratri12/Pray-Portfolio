@@ -19,7 +19,7 @@ export default function Navbar() {
     setOpen(false);
   };
 
-  const menuItems = ["about", "skills", "projects", "contact"];
+  const menuItems = ["about", "skills", "experience", "projects", "contact"];
 
   return (
     <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-black/60 border-b border-purple-500/20 shadow-lg">

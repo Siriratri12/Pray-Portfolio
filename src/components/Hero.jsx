@@ -26,7 +26,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
-        Software Developer • Data Visualization • UI/UX
+        Software Developer • Data Analytics • UI/UX Designer
       </motion.p>
 
       {/* BUTTONS */}
