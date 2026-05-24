@@ -10,9 +10,10 @@ const experiences = [
       "Built responsive and user-friendly interfaces across multiple devices",
       "Integrated RESTful APIs for real-time data handling and system communication",
       "Implemented key modules: Product, Order, Delete History, and BI Dashboard",
-      "Utilized tools such as Docker, Postman, Sourcetree, and K2 Designer in a real-world development workflow",
+      "Utilized Docker, Postman, Sourcetree, and K2 Designer in a real-world workflow",
     ],
   },
+
   {
     title: "Database System Development Assistant (Intern)",
     company: "PSU Alumni Association",
@@ -30,74 +31,150 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative py-24 px-6 bg-black text-white overflow-hidden"
+      className="relative overflow-hidden bg-black py-20 text-white"
     >
-      {/* Background glow */}
-      <div className="absolute w-[600px] h-[600px] bg-purple-600/10 blur-3xl rounded-full top-[-200px] left-[-200px]" />
-      <div className="absolute w-[500px] h-[500px] bg-pink-500/10 blur-3xl rounded-full bottom-[-150px] right-[-150px]" />
+      {/* BG */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(168,85,247,0.16),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(236,72,153,0.12),transparent_30%)]" />
 
-      <div className="max-w-6xl mx-auto">
-        {/* Title */}
-        <motion.h2
-          className="text-4xl md:text-5xl font-bold text-center mb-20 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent"
-          initial={{ opacity: 0, y: 40 }}
+      {/* GRID */}
+      <div className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] bg-[size:70px_70px]" />
+
+      <div className="relative z-10 max-w-6xl mx-auto px-6">
+        {/* TITLE */}
+        <motion.div
+          initial={{ opacity: 0, y: 25 }}
           whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          className="text-center mb-16"
         >
-          Work Experience
-        </motion.h2>
+          <p className="uppercase tracking-[0.35em] text-purple-400 text-xs mb-3">
+            Career Journey
+          </p>
 
-        {/* Cards */}
-        <div className="space-y-16">
-          {experiences.map((exp, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 60 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.2 }}
-              className={`flex flex-col md:flex-row items-start gap-10 ${
-                index % 2 === 1 ? "md:flex-row-reverse" : ""
-              }`}
-            >
-              {/* Card */}
-              <div className="relative w-full md:w-1/2 group">
-                {/* glow */}
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-2xl rounded-3xl opacity-0 group-hover:opacity-100 transition"></div>
+          <h2 className="text-3xl md:text-5xl font-black bg-gradient-to-r from-cyan-300 via-purple-400 to-pink-500 bg-clip-text text-transparent">
+            Work Experience
+          </h2>
+        </motion.div>
 
-                <div className="relative bg-gray-900/80 backdrop-blur-xl p-8 rounded-3xl border border-gray-800 hover:border-purple-500 transition shadow-xl hover:shadow-purple-500/20">
-                  {/* Title */}
-                  <h3 className="text-xl md:text-2xl font-semibold text-purple-400">
-                    {exp.title}
-                  </h3>
+        {/* TIMELINE */}
+        <div className="relative">
+          {/* CENTER LINE */}
+          <div className="absolute left-1/2 top-0 hidden md:block w-[2px] h-full bg-gradient-to-b from-purple-500/0 via-purple-500/40 to-pink-500/0 -translate-x-1/2" />
 
-                  {/* Company + time */}
-                  <div className="flex flex-wrap items-center gap-3 mt-2 text-sm text-gray-400">
-                    <span>{exp.company}</span>
-                    <span className="px-2 py-1 bg-gray-800 rounded-full text-xs">
-                      {exp.period}
-                    </span>
-                  </div>
-
-                  {/* divider */}
-                  <div className="my-4 h-[1px] bg-gradient-to-r from-transparent via-purple-500/30 to-transparent" />
-
-                  {/* details */}
-                  <ul className="space-y-3 text-gray-300 text-sm leading-relaxed">
-                    {exp.details.map((d, i) => (
-                      <li key={i} className="flex gap-3 items-start">
-                        <span className="text-purple-400 mt-[2px]">▹</span>
-                        <span>{d}</span>
-                      </li>
-                    ))}
-                  </ul>
+          <div className="space-y-14">
+            {experiences.map((exp, index) => (
+              <motion.div
+                key={index}
+                initial={{
+                  opacity: 0,
+                  y: 40,
+                }}
+                whileInView={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                transition={{
+                  duration: 0.6,
+                  delay: index * 0.15,
+                }}
+                className={`
+                  relative
+                  flex
+                  flex-col
+                  md:flex-row
+                  items-center
+                  ${index % 2 === 0 ? "md:justify-start" : "md:justify-end"}
+                `}
+              >
+                {/* TIMELINE DOT */}
+                <div
+                  className="
+                    hidden md:flex
+                    absolute
+                    left-1/2
+                    -translate-x-1/2
+                    w-5
+                    h-5
+                    rounded-full
+                    border
+                    border-purple-400/40
+                    bg-black
+                    items-center
+                    justify-center
+                    z-20
+                  "
+                >
+                  <div className="w-2 h-2 rounded-full bg-gradient-to-r from-cyan-400 to-pink-500 animate-pulse" />
                 </div>
-              </div>
 
-              {/* side visual */}
-              <div className="hidden md:flex w-1/2 justify-center items-center">
-                <div className="w-48 h-48 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 opacity-20 blur-3xl"></div>
-              </div>
-            </motion.div>
-          ))}
+                {/* CARD */}
+                <motion.div
+                  whileHover={{
+                    y: -4,
+                    scale: 1.01,
+                  }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 200,
+                    damping: 14,
+                  }}
+                  className={`
+                    relative
+                    w-full
+                    md:w-[46%]
+                    rounded-[28px]
+                    border
+                    border-white/10
+                    bg-white/[0.04]
+                    backdrop-blur-2xl
+                    overflow-hidden
+                    shadow-[0_0_50px_rgba(168,85,247,0.08)]
+                  `}
+                >
+                  {/* glow */}
+                  <div className="absolute inset-0 opacity-0 hover:opacity-100 transition duration-500 bg-gradient-to-br from-purple-500/10 via-transparent to-cyan-500/10" />
+
+                  {/* top light */}
+                  <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-purple-400/60 to-transparent" />
+
+                  <div className="relative p-6 md:p-7">
+                    {/* PERIOD */}
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/[0.03] text-[11px] text-gray-300 mb-5">
+                      <div className="w-2 h-2 rounded-full bg-purple-400" />
+                      {exp.period}
+                    </div>
+
+                    {/* TITLE */}
+                    <h3 className="text-lg md:text-xl font-bold text-white leading-snug">
+                      {exp.title}
+                    </h3>
+
+                    {/* COMPANY */}
+                    <p className="mt-2 text-sm text-purple-300 font-medium">
+                      {exp.company}
+                    </p>
+
+                    {/* DIVIDER */}
+                    <div className="my-5 h-[1px] bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
+                    {/* DETAILS */}
+                    <ul className="space-y-3">
+                      {exp.details.map((detail, i) => (
+                        <li
+                          key={i}
+                          className="flex items-start gap-3 text-sm text-gray-300 leading-relaxed"
+                        >
+                          <span className="text-cyan-400 mt-[1px]">✦</span>
+
+                          <span>{detail}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </motion.div>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
