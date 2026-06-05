@@ -143,14 +143,20 @@ export default function Hero() {
 
           {/* description */}
           <p className="mt-8 text-gray-400 leading-relaxed max-w-xl text-base md:text-lg">
-            Graduated with a Bachelor’s degree in Information and Communication
+            {/* Graduated with a Bachelor’s degree in Information and Communication
             Technology from Prince of Songkla University in 2025. Passionate
             about Software Engineering, Frontend Development, and UI/UX Design,
             with hands-on experience in developing web applications, dashboards,
             and business systems using React, Vue.js, Next.js, JavaScript, and
             SQL. Strong interest in building responsive, user-centered digital
             products while continuously improving technical and problem-solving
-            skills.
+            skills. */}
+            Information and Communication Technology graduate from Prince of
+            Songkla University (2025) with experience in developing web
+            applications, dashboards, and business systems. Skilled in React,
+            Vue.js, Next.js, JavaScript, and SQL, with a strong interest in
+            software development, data visualization, and user-centered digital
+            experiences.
           </p>
 
           {/* buttons */}
