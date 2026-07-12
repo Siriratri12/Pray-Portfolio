@@ -32,6 +32,9 @@ import souvenir2 from "../assets/projects/souvenir-from-lagoon/82.png";
 import cafe1 from "../assets/projects/cafe-management/83.png";
 import cafe2 from "../assets/projects/taphappin-pos/84.png";
 
+import pp1 from "../assets/projects/promptpay-generator/96.png";
+import pp2 from "../assets/projects/promptpay-generator/97.png";
+
 // =======================
 // 🎨 UI/UX DESIGN
 // =======================
@@ -195,6 +198,18 @@ export const projects = [
     type: "Web",
     images: [souvenir1, souvenir2],
     live: "https://souvenir-from-lagoon-thailand.com/",
+  },
+
+  {
+    title: "Promptpay-Generator",
+    category: "Software",
+    tech: "React Vite",
+    description:
+      "PromptPay QR Generator is a web application built with React that generates PromptPay QR Codes compliant with the EMVCo standard. It supports mobile phone numbers, Thai national ID numbers, and e-Wallet IDs, with an optional payment amount. Users can instantly generate QR codes that are compatible with banking applications for secure and convenient payments. The application runs entirely in the browser without transmitting user data to a server, ensuring greater privacy and security.",
+    type: "Web",
+    images: [pp1, pp2],
+    github: "https://github.com/Siriratri12/Promptpay-Generator.git",
+    live: "https://promptpay-generator.vercel.app/",
   },
 
   {
