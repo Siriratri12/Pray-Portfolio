@@ -17,6 +17,17 @@ import product9 from "../assets/projects/product-order/70.png";
 import product10 from "../assets/projects/product-order/71.png";
 import product11 from "../assets/projects/product-order/72.png";
 import product12 from "../assets/projects/product-order/73.png";
+import product13 from "../assets/projects/product-order/98.png";
+import product14 from "../assets/projects/product-order/99.png";
+import product15 from "../assets/projects/product-order/100.png";
+import product16 from "../assets/projects/product-order/101.png";
+import product15 from "../assets/projects/product-order/102.png";
+import product16 from "../assets/projects/product-order/103.png";
+import product17 from "../assets/projects/product-order/104.png";
+import product18 from "../assets/projects/product-order/105.png";
+import product19 from "../assets/projects/product-order/106.png";
+import product20 from "../assets/projects/product-order/107.png";
+import product21 from "../assets/projects/product-order/108.png";
 
 import alumni1 from "../assets/projects/psu-alumni/74.png";
 import alumni2 from "../assets/projects/psu-alumni/75.png";
@@ -159,7 +170,7 @@ export const projects = [
     category: "Software",
     tech: "Vue.js, Pinia",
     description:
-      "This project develops a back-office system designed to support the complex operations of online retail businesses. It transforms the traditional data storage system into an interactive dashboard that processes data in real-time. This system not only manages products and orders but also serves as a decision support tool through statistical data and business trend analysis.",
+      "ORDERFLOW is a Smart Order & Back-office Management System designed to streamline complex operations for online retail businesses. It transforms traditional data management into an interactive dashboard with real-time data processing and monitoring. Beyond dashboard visualization, inventory management, and order processing, the system incorporates professional features such as Deletion History with data recovery capabilities and Business Intelligence (BI) Reports. These features provide valuable statistical insights, business trend analysis, and data-driven decision support, enabling more efficient operations and informed business decision-making.",
     type: "Web",
     images: [
       product1,
@@ -174,9 +185,18 @@ export const projects = [
       product10,
       product11,
       product12,
+      product13,
+      product14,
+      product15,
+      product16,
+      product17,
+      product18,
+      product19,
+      product20,
+      product21,
     ],
-    github: "https://github.com/Siriratri12/my-new-dashboard.git",
-    live: "https://my-new-dashboard-yz7t.vercel.app/dashboard",
+    github: "https://github.com/Siriratri12/product-order-management.git",
+    live: "https://product-order-management-rouge.vercel.app",
   },
 
   {
