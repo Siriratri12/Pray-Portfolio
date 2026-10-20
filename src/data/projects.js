@@ -5,7 +5,6 @@ import pony1 from "../assets/projects/mylittlepony/59.png";
 import pony2 from "../assets/projects/mylittlepony/60.png";
 import pony3 from "../assets/projects/mylittlepony/61.png";
 
-import product1 from "../assets/projects/product-order/62.png";
 import product2 from "../assets/projects/product-order/63.png";
 import product3 from "../assets/projects/product-order/64.png";
 import product4 from "../assets/projects/product-order/65.png";
@@ -13,7 +12,6 @@ import product5 from "../assets/projects/product-order/66.png";
 import product6 from "../assets/projects/product-order/67.png";
 import product7 from "../assets/projects/product-order/68.png";
 import product8 from "../assets/projects/product-order/69.png";
-import product9 from "../assets/projects/product-order/70.png";
 import product10 from "../assets/projects/product-order/71.png";
 import product11 from "../assets/projects/product-order/72.png";
 import product12 from "../assets/projects/product-order/73.png";
@@ -173,7 +171,6 @@ export const projects = [
       "ORDERFLOW is a Smart Order & Back-office Management System designed to streamline complex operations for online retail businesses. It transforms traditional data management into an interactive dashboard with real-time data processing and monitoring. Beyond dashboard visualization, inventory management, and order processing, the system incorporates professional features such as Deletion History with data recovery capabilities and Business Intelligence (BI) Reports. These features provide valuable statistical insights, business trend analysis, and data-driven decision support, enabling more efficient operations and informed business decision-making.",
     type: "Web",
     images: [
-      product1,
       product2,
       product3,
       product4,
@@ -181,7 +178,6 @@ export const projects = [
       product6,
       product7,
       product8,
-      product9,
       product10,
       product11,
       product12,
