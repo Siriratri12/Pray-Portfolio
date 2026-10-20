@@ -5,27 +5,27 @@ import pony1 from "../assets/projects/mylittlepony/59.png";
 import pony2 from "../assets/projects/mylittlepony/60.png";
 import pony3 from "../assets/projects/mylittlepony/61.png";
 
-import product2 from "../assets/projects/product-order/63.png";
-import product3 from "../assets/projects/product-order/64.png";
-import product4 from "../assets/projects/product-order/65.png";
-import product5 from "../assets/projects/product-order/66.png";
-import product6 from "../assets/projects/product-order/67.png";
-import product7 from "../assets/projects/product-order/68.png";
-import product8 from "../assets/projects/product-order/69.png";
-import product10 from "../assets/projects/product-order/71.png";
-import product11 from "../assets/projects/product-order/72.png";
-import product12 from "../assets/projects/product-order/73.png";
-import product13 from "../assets/projects/product-order/98.png";
-import product14 from "../assets/projects/product-order/99.png";
-import product15 from "../assets/projects/product-order/100.png";
-import product16 from "../assets/projects/product-order/101.png";
-import product15 from "../assets/projects/product-order/102.png";
-import product16 from "../assets/projects/product-order/103.png";
-import product17 from "../assets/projects/product-order/104.png";
-import product18 from "../assets/projects/product-order/105.png";
-import product19 from "../assets/projects/product-order/106.png";
-import product20 from "../assets/projects/product-order/107.png";
-import product21 from "../assets/projects/product-order/108.png";
+import product1 from "../assets/projects/product-order/1.png";
+import product2 from "../assets/projects/product-order/2.png";
+import product3 from "../assets/projects/product-order/3.png";
+import product4 from "../assets/projects/product-order/4.png";
+import product5 from "../assets/projects/product-order/5.png";
+import product6 from "../assets/projects/product-order/6.png";
+import product7 from "../assets/projects/product-order/7.png";
+import product8 from "../assets/projects/product-order/8.png";
+import product9 from "../assets/projects/product-order/9.png";
+import product10 from "../assets/projects/product-order/10.png";
+import product11 from "../assets/projects/product-order/11.png";
+import product12 from "../assets/projects/product-order/12.png";
+import product13 from "../assets/projects/product-order/13.png";
+import product14 from "../assets/projects/product-order/14.png";
+import product15 from "../assets/projects/product-order/15.png";
+import product16 from "../assets/projects/product-order/16.png";
+import product17 from "../assets/projects/product-order/17.png";
+import product18 from "../assets/projects/product-order/18.png";
+import product19 from "../assets/projects/product-order/19.png";
+import product20 from "../assets/projects/product-order/20.png";
+import product21 from "../assets/projects/product-order/21.png";
 
 import alumni1 from "../assets/projects/psu-alumni/74.png";
 import alumni2 from "../assets/projects/psu-alumni/75.png";
@@ -171,6 +171,7 @@ export const projects = [
       "ORDERFLOW is a Smart Order & Back-office Management System designed to streamline complex operations for online retail businesses. It transforms traditional data management into an interactive dashboard with real-time data processing and monitoring. Beyond dashboard visualization, inventory management, and order processing, the system incorporates professional features such as Deletion History with data recovery capabilities and Business Intelligence (BI) Reports. These features provide valuable statistical insights, business trend analysis, and data-driven decision support, enabling more efficient operations and informed business decision-making.",
     type: "Web",
     images: [
+      product1,
       product2,
       product3,
       product4,
@@ -178,6 +179,7 @@ export const projects = [
       product6,
       product7,
       product8,
+      product9,
       product10,
       product11,
       product12,
