@@ -26,8 +26,8 @@ export default function Contact() {
     },
     {
       title: "Line",
-      value: "srrt-u",
-      href: "https://line.me/ti/p/~srrt-u",
+      value: "nongpraylovesnongtia",
+      href: "https://line.me/ti/p/~nongpraylovesnongtia",
       icon: MessagesSquare,
       color: "hover:border-green-400 hover:text-green-400",
     },
