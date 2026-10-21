@@ -109,13 +109,13 @@ export default function About() {
                     Siriratri Uttamamunee
                   </span>
                   , also known as Pray, a 22-year-old developer from Songkhla,
-                  Thailand. I am currently pursuing a Bachelor's degree in
-                  Information and Communication Technology at Prince of Songkla
-                  University, expected to graduate in 2025.
+                  Thailand. I hold a bachelor's degree in Information and
+                  Communication Technology from Prince of Songkla University.
+                  graduate in 2026.
                 </p>
 
                 <p className="text-gray-400 text-base md:text-lg leading-relaxed">
-                  I specialize in{" "}
+                  I interested in{" "}
                   <span className="text-cyan-300">Software Engineer</span>,{" "}
                   <span className="text-pink-300">Data Analytics</span>, and{" "}
                   <span className="text-purple-300">UI/UX Design</span>, with
