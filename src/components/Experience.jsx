@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     title: "Software Engineer (Co-operative Education)",
-    company: "Sri Trang Agro-Industry PCL (STA Group)",
+    company: "Sri Trang IBC Company Limited (STA Group)",
     period: "Nov 2025 – Mar 2026",
     details: [
-      "Developed internal Product & Order Dashboard using Vue.js",
-      "Built responsive UI across multiple devices",
-      "Integrated RESTful APIs for real-time data",
-      "Implemented Product, Order, and BI modules",
-      "Worked with Docker, Postman, Sourcetree",
+      "Enterprise Software & State Management: Studied and explored internal enterprise software, applying Vue.js, Vuetify, and Pinia for state management.",
+      "Frontend Development: Experimented with developing responsive user interfaces for an interactive Product & Order Management Dashboard.",
+      "API Integration & Data Handling: Integrated RESTful APIs using Axios, explored the DummyJSON API, and processed data for system display.",
+      "Core Dashboard Modules: Experimented with developing key modules, including Home Dashboard, Product Management, Order Management, Deletion History, BI Report, and User Guide.",
+      "Software Engineering Tools: Explored Docker for containerization, Postman for API testing, Sourcetree for Git version control, and K2 Designer for workflow design.",
     ],
   },
 
@@ -19,10 +19,10 @@ const experiences = [
     company: "PSU Alumni Association",
     period: "Apr 2025 – Jun 2025",
     details: [
-      "Developed Alumni Database System using Next.js",
-      "Designed UI/UX and frontend interfaces",
-      "Supported documentation and system operations",
-      "Created digital media materials",
+      "Developed a web-based Alumni Database System using Next.",
+      "Designed intuitive and user-friendly UI/UX interfaces while supporting frontend developments",
+      "Assisted in system operations, documentation processes, and event coordination",
+      "Contributed to digital media and public relations materials for organizational communication",
     ],
   },
 ];
